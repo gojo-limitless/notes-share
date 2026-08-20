@@ -1,9 +1,4 @@
-# NEVER commit these — they contain decryption keys / note metadata
-site/.keys.json
-site/notes.json
-
-# Local build artifacts
-site/index.html
-
-# OS cruft
+# NEVER commit — decryption keys / note metadata
+.keys.json
+notes.json
 .DS_Store
